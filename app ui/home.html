@@ -2,63 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
     <title>Meeco App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
        
-        <header class="header">
-            <img src="png/meeco-wname.png" class="logo">
-            <div class="profile-icon"></div>
-        </header>
-        
-        <!--main home-->
-        <main class="main-content">
-            <h2 class="home-title">HOME</h2>
-            <div class="content-box">
-                <div class="recent-section">
-                    <h3>Recently Converted Text</h3>
-                    <div class="item">
-                        <p class="item-title">Grammar</p>
-                        <p class="item-time">5 min ago</p>
-                    </div>
-                </div>
-                <div class="recent-section">
-                    <h3>Recently Opened Topics</h3>
-                    <div class="item">
-                        <p class="item-title">Untitled</p>
-                        <p class="item-time">1 min ago</p>
-                    </div>
-                </div>
-            </div>
-        </main>
-        
-        <!-- Bottom Navbar Section -->
-        <nav class="bottom-nav">
-            <div class="nav-item active">
-                <img src="svg/home.svg" alt="Home" class="homesvg">
-                <p class="selected-nav">Home</p>
-            </div>
-            <div class="nav-item">
-                <img src="svg/subject.svg" alt="Subject">
-                <p>Subject</p>
-            </div>
-            <div class="nav-item camera-icon">
+        <nav class="left-nav">
+            <img src="svg/subject.svg" alt="Subject" class="nav-icon">
+            <img src="svg/trash.svg" alt="Trash" class="nav-icon">
+            <img src="svg/up.svg" alt="Upgrade" class="nav-icon">
+            <div class="camera-icon">
                 <div class="camera-circle">
                     <img src="svg/add-image.svg" alt="Camera">
                 </div>
             </div>
-            <div class="nav-item">
-                <img src="svg/trash.svg" alt="Trash">
-                <p>Trash</p>
-            </div>
-            <div class="nav-item">
-                <img src="svg/up.svg" alt="Upgrade">
-                <p>Upgrade</p>
-            </div>
         </nav>
+
+        <div class="main-content">
+            <header class="header">
+                <img src="png/meeco-logo.png" class="logo" alt="Logo">   
+                <img src="path/to/profile.png" class="profile-icon" alt="Profile Icon">
+            </header>
+
+            <main class="image-upload-section">
+                <h2 class="content-title">Convert Image</h2>
+                <div class="image-upload">
+                    <div class="option">
+                        <button id="attach-icon">
+                            <img src="svg/add-image (1).svg" alt="Attach Icon">
+                        </button>
+                        <p>Attach image</p>
+                    </div>
+                    <p class="or">OR</p>
+                    <div class="option">
+                        <button id="capture-icon">
+                            <img src="png/mdi_camera.png" alt="Capture Icon">
+                        </button>
+                        <p>Capture new image</p>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
 </body>
 </html>

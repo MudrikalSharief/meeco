@@ -1,14 +1,11 @@
-
-
+/* Reset */
 * {
-    padding-top: 20px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
@@ -18,156 +15,127 @@ body {
     overflow-x: hidden;
 }
 
-/*start - home*/
 .container {
     width: 100%;
     max-width: 480px;
     height: 100vh;
     background-color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
 }
 
+.left-nav {
+    width: 60px;
+    background-color: #013e99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 115px;
+    gap: 45px;
+}
+
+.nav-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.camera-icon {
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.camera-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 6px solid #FFD700;
+}
+
+.camera-circle img {
+    width: 24px;
+    height: 24px;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
     align-items: center;
-    background-color: #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    width: 100px;
-    height: 110px;
+    width: 65px; 
+    height: auto;
+    margin-right: 8px;
 }
 
 .profile-icon {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #ccc;
+    background-color: #cccccc;
 }
 
-.main-content {
-    padding: 20px;
-    flex-grow: 1;
-    overflow-y: auto;
+
+.image-upload-section {
+    
+    margin-top: 30px;
 }
 
-.home-title {
-    color: #fdd835;
+.content-title {
     font-size: 18px;
     font-weight: bold;
-}
-
-.content-box {
-    margin-top: 10px;
-    border: 2px solid #2196f3;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-}
-
-.recent-section {
-    margin-bottom: 20px;
-}
-
-.recent-section h3 {
-    font-size: 14px;
     color: #333;
-    margin-bottom: 5px;
 }
 
-.item {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 12px;
-    border-radius: 12px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.item-title {
-    font-size: 14px;
-}
-
-.item-time {
-    font-size: 12px;
-    color: #888;
-}
-
-.bottom-nav {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    background-color: #013e99;
-    color: white;
-    position: sticky;
-    bottom: 0;
-}
-
-
-.selected-nav{
-color:  #FFD700;
-}
-
-.camera-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.camera-circle {
-    width: 70px; /* Set the width and height to make a perfect circle */
-    height: 70px;
-    background-color: #fff; /* Yellow color for the circle */
-    border-radius: 50%; /* Makes it circular */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid #FFD700; /* White border around the circle */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
-}
-
-.camera-circle img {
-    width: 40px; /* Adjust to fit nicely inside the circle */
-    height: 40px;
-}
-
-.nav-item {
+.image-upload {
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
-    font-size: 12px;
+    margin-top: 20px;
 }
 
-.nav-item img {
-    width: 24px;
-    height: 24px;
-    margin-bottom: 4px;
-}
-
-.camera-icon {
-    position: relative;
-}
-
-.camera-circle {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+.option {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #021a4a;
+    font-size: 16px;
+    margin: 10px 0;
 }
 
-/*end - home*/
+#attach-icon, #capture-icon {
+    background: none;
+    border: none;
+}
+
+#attach-icon img, #capture-icon img {
+    width: 36px;
+    height: 36px;
+}
+
+.or {
+    margin: 10px 0;
+    color: #999;
+}
