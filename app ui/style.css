@@ -197,15 +197,15 @@ body {
 
 /* Subject Time */
 .subject-time {
-    font-size: 12px; /* Smaller font for timestamp */
-    color: #888; /* Gray color for subtle appearance */
+    font-size: 12px; 
+    color: #888; 
 }
 
 /*end of subject*/
 
 /*start of trash*/
 .trash-section {
-    background-color: #e0e0e0; /* Background color similar to your example */
+    background-color: #e0e0e0; 
     border-radius: 10px;
     padding: 20px;
     margin: 15px;
@@ -215,11 +215,10 @@ body {
 .trash-title {
     padding-top: 10px;
     font-weight: bold;
-    color: #ffcc00; /* Title color */
-    font-size: 18px; /* Font size for title */
-    margin-bottom: 15px; /* Space below title */
-    text-transform: uppercase; /* Uppercase for title */
-    
+    color: #ffcc00; 
+    font-size: 18px; 
+    margin-bottom: 15px; 
+    text-transform: uppercase;
 }
 
 /* Subject Header Styles */
@@ -231,9 +230,8 @@ body {
     font-size: 12px;
     padding: 10px;
     font-weight: bold;
-    color: #383835 ; /* Header text color */
+    color: #383835 ; 
 }
-
 /* Subject Card Styles */
 .subject-card {
     padding-top: 10px;
@@ -243,26 +241,26 @@ body {
     background-color: white;
     padding: 12px 15px;
     border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin-bottom: 15px; /* Space below each card */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 15px; 
 }
 
 /* Subject Name Styles */
 .subject-name {
     font-size: 14px;
     font-weight: bold;
-    color: #333; /* Darker color for subject name */
+    color: #333; 
 }
 
 /* Subject Time Styles */
 .subject-time {
-    font-size: 12px; /* Smaller font for timestamp */
-    color: #888; /* Gray color for subtle appearance */
+    font-size: 12px;
+    color: #888; 
 }
 
 /* Select Icon Styles */
 .select-icon {
-    font-size: 20px; /* Icon size */
-    cursor: pointer; /* Pointer cursor for select icon */
-    color: #090906; /* Icon color */
+    font-size: 20px; 
+    cursor: pointer; 
+    color: #090906; 
 }/*end of trash*/
