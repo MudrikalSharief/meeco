@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -139,9 +139,130 @@ body {
     margin: 10px 0;
     color: #999;
 }
+/*end of landingpage-home*/
 
-/* SUBJECT */
+
+/*start of subject*/
+.subject-title{
+    padding-top: 15px;
+    color: #ffcc00;
+}
+
 .subject-section{
     h3{color:#FFD700}
 
 }
+
+.subject-section {
+    background-color: #e0e0e0; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+}
+
+
+.subject-section h3 {
+    font-weight: bold;
+    color: #ffcc00;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+.subject-card {
+    padding-top: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 12px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 15px; 
+}
+
+.subject-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Subject Time */
+.subject-time {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Subject Time */
+.subject-time {
+    font-size: 12px; /* Smaller font for timestamp */
+    color: #888; /* Gray color for subtle appearance */
+}
+
+/*end of subject*/
+
+/*start of trash*/
+.trash-section {
+    background-color: #e0e0e0; /* Background color similar to your example */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+}
+
+/* Trash Title Styles */
+.trash-title {
+    padding-top: 10px;
+    font-weight: bold;
+    color: #ffcc00; /* Title color */
+    font-size: 18px; /* Font size for title */
+    margin-bottom: 15px; /* Space below title */
+    text-transform: uppercase; /* Uppercase for title */
+    
+}
+
+/* Subject Header Styles */
+.subject-header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: bold;
+    color: #383835 ; /* Header text color */
+}
+
+/* Subject Card Styles */
+.subject-card {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 12px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 15px; /* Space below each card */
+}
+
+/* Subject Name Styles */
+.subject-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333; /* Darker color for subject name */
+}
+
+/* Subject Time Styles */
+.subject-time {
+    font-size: 12px; /* Smaller font for timestamp */
+    color: #888; /* Gray color for subtle appearance */
+}
+
+/* Select Icon Styles */
+.select-icon {
+    font-size: 20px; /* Icon size */
+    cursor: pointer; /* Pointer cursor for select icon */
+    color: #090906; /* Icon color */
+}/*end of trash*/
