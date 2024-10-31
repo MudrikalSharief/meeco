@@ -136,7 +136,6 @@
     --ct-icon-color: invert(91%) sepia(2%) saturate(85%) hue-rotate(315deg) brightness(90%) contrast(79%);
     --ct-icon-color-hover: invert(42%) sepia(0%) saturate(1%) hue-rotate(180deg) brightness(98%) contrast(86%);
     --ct-icon-color-active: invert(12%) sepia(20%) saturate(18%) hue-rotate(3deg) brightness(101%) contrast(84%);
-    --ct-icon-delete-color: invert(33%) sepia(34%) saturate(4403%) hue-rotate(337deg) brightness(114%) contrast(87%);
 
 }
 
@@ -454,8 +453,8 @@ div.dt-container div.dt-paging ul.pagination{
     width:20px ;
 }
 
-.delete-color{
-    filter: var(--ct-icon-delete-color);
+.icon-red{
+    filter: var(--ct-icon-danger);
 }
 
 .td-centered{
