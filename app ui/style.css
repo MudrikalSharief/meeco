@@ -325,4 +325,95 @@ body {
     font-weight: bold;
     font-size: 1em;
   }
-  
+  /*end of upgrade*/
+
+  /*start of upload image*/
+  .image-upload-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-title {
+   justify-content: left;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.image-upload-box {
+    background-color: #e0e0e0; /* Light grey box */
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+   
+    text-align: center;
+}
+
+.image-upload-box h3 {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.image-upload-content {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 10px;
+}
+
+.sample-image {
+    max-width: 100px; /* Set a specific size for the sample image */
+    border-radius: 8px;
+    border: 2px solid #ccc; /* Linear border around the image */
+    transition: border-color 0.2s; /* Smooth transition for border color */
+}
+
+
+.upload-line {
+    width: 80%; /* Width of the line */
+    height: 2px; /* Height of the line */
+    background:  #ffd700; /* Gradient effect */
+    margin: 0 10px; /* Margin to separate from the image and icon */
+}
+
+.trash-icon {
+    width: 20px; /* Smaller size for the trash icon */
+    height: auto; /* Keep aspect ratio */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.another-image-upload-box {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.another-image-upload-box p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.another-image-upload-box img {
+    width: 30px;
+    height: auto;
+    filter: grayscale(100%); /* Linear effect with grayscale */
+    transition: filter 0.2s; /* Smooth transition for filter */
+}
+
+
+.browse-images {
+    color: #ffd700; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.browse-images:hover {
+    text-decoration: underline; /* Add an underline on hover */
+    color: #1c0195; /* Darker yellow for hover effect */
+}
