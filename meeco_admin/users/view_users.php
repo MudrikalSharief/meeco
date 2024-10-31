@@ -64,30 +64,25 @@
                             <thead class="table-light">
                                 <tr>
                                     <th class="text-start">No.</th>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>Username</th>
-                                    <th>Role</th>
+                                    <th>Name</th>
+                                    <th>Gmail</th>
+                                    <th>Joined</th>
+                                    <th>Status</th>
+                                    <th>Promo</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <!-- <?php
-                                // $i = 1;
-                                // $array = $accountObj->get_accounts();
-
-                                // foreach ($array as $arr) {
-                                ?>
-                                    <tr>
-                                        <td class="text-start"><?= $i ?></td>
-                                        <td><?= $none//$arr['first_name'] ?></td>
-                                        <td><?= $none //$arr['last_name'] ?></td>
-                                        <td><?= $none//$arr['username'] ?></td>
-                                        <td><?=$none//$arr['role'] ?></td>
+                             
+                                <tr>
+                                        <td>1</td>
+                                        <td>Sharief Mudrikal</td>
+                                        <td>shariefkundo@gmail.com</td>
+                                        <td>10-10-24</td>
+                                        <td class="status">Active</td>
+                                        <td class="promo">Casual</td>
+                                        <td class="td-centered"><img class="action" src="../img/icons/delete.svg" alt=""></td>
                                     </tr>
-                                <?php
-                                    // $i++;
-                               // } -->
-                                ?>
                             </tbody>
                         </table>
                     </div>
