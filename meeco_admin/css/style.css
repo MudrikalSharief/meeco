@@ -221,7 +221,6 @@
     color: var(--sidebar-menu-hover-color);
     font-weight: 700;
 }
-
 .sidebar > ul > li >a.link-active img.bi,.sidebar > ul > li > a:focus img.bi{
     filter: var(--ct-icon-color-active);
 }
@@ -258,7 +257,7 @@
 }
 
 .page-title{
-    color: var(--sidebar-bg-color);
+    color: var(--ct-black);
     font-size: 20px;
     margin: 0;
     line-height: 75px;

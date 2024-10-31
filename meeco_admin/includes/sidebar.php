@@ -13,7 +13,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="#"  id="users-link" class="nav-link">
             <img class="bi" src="../img/icons/users.svg" alt="dashboard icon">
                 <span class="fs-6 ms-2">Users</span>
             </a>
