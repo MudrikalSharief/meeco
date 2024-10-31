@@ -212,13 +212,9 @@ body {
 }
 
 /* Trash Title Styles */
-.trash-title {
-    padding-top: 10px;
-    font-weight: bold;
-    color: #ffcc00; 
-    font-size: 18px; 
-    margin-bottom: 15px; 
-    text-transform: uppercase;
+.trash-title{
+    padding-top: 15px;
+    color: #ffcc00;
 }
 
 /* Subject Header Styles */
@@ -341,7 +337,7 @@ body {
 }
 
 .image-upload-box {
-    background-color: #e0e0e0; /* Light grey box */
+    background-color: #e0e0e0; 
     border-radius: 10px;
     padding: 20px;
     position: relative;
@@ -357,30 +353,30 @@ body {
 
 .image-upload-content {
     display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
+    align-items: center; 
+    justify-content: center; 
     margin-top: 10px;
 }
 
 .sample-image {
-    max-width: 100px; /* Set a specific size for the sample image */
+    max-width: 100px; 
     border-radius: 8px;
-    border: 2px solid #ccc; /* Linear border around the image */
-    transition: border-color 0.2s; /* Smooth transition for border color */
+    border: 2px solid #ccc; 
+    transition: border-color 0.2s; 
 }
 
 
 .upload-line {
-    width: 80%; /* Width of the line */
-    height: 2px; /* Height of the line */
-    background:  #ffd700; /* Gradient effect */
-    margin: 0 10px; /* Margin to separate from the image and icon */
+    width: 80%; 
+    height: 2px; 
+    background:  #ffd700;
+    margin: 0 10px; 
 }
 
 .trash-icon {
-    width: 20px; /* Smaller size for the trash icon */
-    height: auto; /* Keep aspect ratio */
-    cursor: pointer; /* Change cursor to pointer */
+    width: 20px;
+    height: auto;
+    cursor: pointer;
 }
 
 .another-image-upload-box {
@@ -402,8 +398,8 @@ body {
 .another-image-upload-box img {
     width: 30px;
     height: auto;
-    filter: grayscale(100%); /* Linear effect with grayscale */
-    transition: filter 0.2s; /* Smooth transition for filter */
+    filter: grayscale(100%); 
+    transition: filter 0.2s;
 }
 
 
@@ -414,6 +410,53 @@ body {
 }
 
 .browse-images:hover {
-    text-decoration: underline; /* Add an underline on hover */
-    color: #1c0195; /* Darker yellow for hover effect */
+    text-decoration: underline; 
+    color: #1c0195;
 }
+/*end pof upload images*/
+
+/*start of topic*/
+/* Topic Title */
+.topic-title{
+    padding-top: 15px;
+    color: #ffcc00;
+}
+
+/* Topic Section */
+.topic-section {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+}
+
+/* Topic Card */
+.topic-card {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 12px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 15px;
+}
+
+/* Topic Name */
+.topic-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333; /
+}
+
+/* Topic Time */
+.topic-time {
+    font-size: 12px;
+    color: #888; 
+}
+
+.topic-category {
+    font-weight: bold;
+}
+/*end pf topiv*/
