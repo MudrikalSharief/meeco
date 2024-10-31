@@ -81,8 +81,8 @@
                                         <td>10-10-24</td>
                                         <td class="status">Active</td>
                                         <td class="promo">Casual</td>
-                                        <td class="td-centered"><img class="action" src="../img/icons/delete.svg" alt=""></td>
-                                    </tr>
+                                        <td class="td-centered"><img class="action-del" src="../img/icons/delete.svg" alt=""></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
