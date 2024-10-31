@@ -27,7 +27,7 @@
                             </form> -->
                             <div class="d-flex align-items-center">
                                 <label for="role-filter" class="me-2">Status</label>
-                                <select id="role-filter" class="form-select">
+                                <select id="role-filter me-2" class="form-select me-2">
                                     <option value="choose">All</option>
                                     <option value="">Active</option>
                                     <option value="">Inactive</option>]
@@ -44,7 +44,7 @@
 
                             <div class="d-flex align-items-center">
                                 <label for="role-filter" class="me-2">Promo</label>
-                                <select id="role-filter" class="form-select">
+                                <select id="role-filter" class="form-select  me-2">
                                     <option value="choose">All</option>
                                     <option value="">Guest</option>
                                     <option value="">Casual</option>
