@@ -17,14 +17,7 @@
                             // $accountObj = new Account();
                         ?>
                         <div class="d-flex justify-content-center align-items-center">
-                            <!-- <form class="d-flex me-2">
-                                <div class="input-group w-100">
-                                    <input type="text" class="form-control form-control-light" id="custom-search" placeholder="Search account...">
-                                    <span class="input-group-text bg-primary border-primary text-white brand-bg-color">
-                                        <i class="bi bi-search"></i>
-                                    </span>
-                                </div>
-                            </form> -->
+                           
                             <div class="d-flex align-items-center">
                                 <label for="role-filter" class="me-2">Status</label>
                                 <select id="role-filter me-2" class="form-select me-2">
@@ -52,6 +45,15 @@
                                     <option value="">VIP</option>
                                 </select>
                             </div>
+
+                             <form class="d-flex me-2">
+                                <div class="input-group w-100">
+                                    <input type="text" class="form-control form-control-light" id="custom-search" placeholder="Search user...">
+                                    <span class="input-group-text bg-primary border-primary text-white brand-bg-color">
+                                        <i class="bi bi-search"></i>
+                                    </span>
+                                </div>
+                            </form> 
 
                         </div>
                         <div class="page-title-right d-flex align-items-center"> 
@@ -82,7 +84,47 @@
                                         <td class="status">Active</td>
                                         <td class="promo">Casual</td>
                                         <td class="td-centered"><img class="action icon-red" src="../img/icons/delete.svg" alt=""></td>
-                                    </tr>
+                                </tr>
+
+                                <tr>
+                                        <td>2</td>
+                                        <td>Jomark Abello</td>
+                                        <td>jomarkabello@gmail.com</td>
+                                        <td>10-09-24</td>
+                                        <td class="status">Active</td>
+                                        <td class="promo">Regular</td>
+                                        <td class="td-centered"><img class="action icon-red" src="../img/icons/delete.svg" alt=""></td>
+                                </tr>
+
+                                <tr>
+                                        <td>3</td>
+                                        <td>Elousa Marcelino</td>
+                                        <td>elousamarcelino@gmail.com</td>
+                                        <td>10-09-24</td>
+                                        <td class="status">Active</td>
+                                        <td class="promo">Guest</td>
+                                        <td class="td-centered"><img class="action icon-red" src="../img/icons/delete.svg" alt=""></td>
+                                </tr>
+
+                                <tr>
+                                        <td>4</td>
+                                        <td>Anthony Huesca</td>
+                                        <td>anthonyhuesca@gmail.com</td>
+                                        <td>10-08-24</td>
+                                        <td class="status">Active</td>
+                                        <td class="promo">VIP</td>
+                                        <td class="td-centered"><img class="action icon-red" src="../img/icons/delete.svg" alt=""></td>
+                                </tr>
+
+                                <tr>
+                                        <td>5</td>
+                                        <td>Yousef Badua</td>
+                                        <td>yousefbadua@gmail.com</td>
+                                        <td>10-07-24</td>
+                                        <td class="status">Active</td>
+                                        <td class="promo">Casual</td>
+                                        <td class="td-centered"><img class="action icon-red" src="../img/icons/delete.svg" alt=""></td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
