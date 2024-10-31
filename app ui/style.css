@@ -280,7 +280,7 @@ body {
   
   .subscription-cards {
     display: grid;
-    grid-template-columns: repeat(2, minmax(120px, 1fr)); /* Reduced minimum width for each column */
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
     gap: 10px;
     justify-content: center;
   }
@@ -291,7 +291,7 @@ body {
     padding: 12px;
     text-align: center;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    max-width: 165px; /* Set a max-width to reduce card width */
+    max-width: 165px;
   }
   
   .badge {
