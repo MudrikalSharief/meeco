@@ -13,7 +13,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="#"  id="users-link" class="nav-link">
+            <a href="users"  id="users-link" class="nav-link">
             <img class="bi" src="../img/icons/users.svg" alt="dashboard icon">
                 <span class="fs-6 ms-2">Users</span>
             </a>
@@ -49,7 +49,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="accounts" id="account-link" class="nav-link">
+            <a href="accounts" id="accounts-link" class="nav-link">
                 <img class="bi" src="../img/icons/account.svg" alt="dashboard icon">
                 <span class="fs-6 ms-2">Accounts</span>
             </a>
