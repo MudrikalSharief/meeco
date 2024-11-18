@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeco - Study Smart</title>
     <link rel="stylesheet" href="css/landing-page-style.css ?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/navbar-style.css ?v=<?php echo time(); ?>">
 </head>
 <body>
     <nav class="navbar">
