@@ -133,7 +133,7 @@
                     <div class="footer-section">
                         <h3>Help and Support</h3>
                         <ul>
-                            <li><a href="faq.php">FAQ</a></li>
+                            <li><a href="#">FAQ</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
