@@ -24,7 +24,9 @@
                     <div class="text-content">
                         <h2 class="subtitle">Quick. Convenient. Efficient.</h2>
                         <p style="font-size:18px; font-weight:500; margin-bottom: 32px;">Turn your photos of notes into text instantly for quick, and generate reviewers. Save time and boost productivity with just a snap!</p>
-                        <button class="btn-subtitle">Learn more</button>
+                        <!-- <a href="sample.php" style="text-decoration: none;"> -->
+                            <button class="btn-subtitle">Start Your Journey</button>
+                        <!-- </a>     -->
                     </div>
                     <div class="image-content">
                         <img src="pictures/convert-image-1.png" alt="level-up" class="convert-image-meeco">

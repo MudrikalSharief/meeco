@@ -25,7 +25,9 @@
                         <h2 class="subtitle">Personalized Quiz Maker</h2>
                         <p style="font-size:18px; font-weight:500; margin-bottom: 32px;">Generate tailored questions that challenge your knowledge and reinforce learning, ensuring you’re well-prepared for any assessment.
                         </p>
-                        <button class="btn-subtitle">Learn more</button>
+                        <!-- <a href="sample.php" style="text-decoration: none;"> -->
+                            <button class="btn-subtitle">Start Your Journey</button>
+                        <!-- </a>     -->
                     </div>
                     <div class="image-content">
                         <img src="pictures/convert-image-8.png" alt="level-up" class="convert-image-meeco">
