@@ -54,7 +54,9 @@
                     <div class="text-content">
                         <h2>Quick. Convenient. Efficient.</h2>
                         <p style="margin-bottom: 32px;">Turn your photos of notes into text instantly for quick, and generate reviewers. Save time and boost productivity with just a snap!</p>
-                        <button class="btn-secondary">Learn more</button>
+                        <a href="convert-image.php" style="text-decoration: none;">
+                            <button class="btn-secondary">Learn more</button>
+                        </a>
                     </div>
                     <div class="image-content">
                         <img src="pictures/up-meeco.png" alt="level-up" class="up-meeco">
@@ -72,7 +74,9 @@
                     <div class="text-content">
                         <h2>Your Info Digest</h2>
                         <p style="margin-bottom: 32px;">After gathering all the text, it condenses the information into a clear and concise summary, helping you grasp the key points quickly</p>
-                        <button class="btn-secondary">Learn more</button>
+                        <a href="summarizer-and-reviewer.php" style="text-decoration: none;">
+                            <button class="btn-secondary">Learn more</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -89,7 +93,9 @@
                     <div class="text-content">
                         <h2>Backed by Reviewer</h2>
                         <p style="margin-bottom: 32px;">Transform your study sessions with a powerful tool designed to streamline your learning. By highlighting essential concepts and enhancing retention, it makes exam preparation not just effective, but also engaging and efficient.</p>
-                        <button class="btn-secondary">Learn more</button>
+                        <a href="summarizer-and-reviewer.php" style="text-decoration: none;">
+                            <button class="btn-secondary">Learn more</button>
+                        </a>
                     </div>
                     
                 </div>
@@ -102,7 +108,9 @@
                     <div class="text-content">
                         <h2>Personalized Quiz Maker</h2>
                         <p style="margin-bottom: 32px;">Generate tailored questions that challenge your knowledge and reinforce learning, ensuring you’re well-prepared for any assessment.</p>
-                        <button class="btn-secondary">Learn more</button>
+                        <a href="quiz-maker.php" style="text-decoration: none;">
+                            <button class="btn-secondary">Learn more</button>
+                        </a>
                     </div>
                     <div class="image-content">
                         <img src="pictures/head-scratch.png" alt="Quiz Maker Mascot" class="head-scratch-png">
