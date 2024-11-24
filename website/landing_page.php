@@ -6,12 +6,13 @@
     <title>Meeco - Study Smart</title>
     <link rel="stylesheet" href="css/landing-page-style.css ?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="css/navbar-style.css ?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/footer-style.css ?v=<?php echo time(); ?>">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
             <div class="logo">
-                <img src="pictures/meeco-logo-text.png" alt="Meeco Logo">
+            <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo"></a>
             </div>
             <button class="login-btn">Log In</button>
         </div>
@@ -38,11 +39,11 @@
         <section class="how-it-works">
             <div class="container">
                 <h2 class="text-how-it-works"><img src="pictures/sparkling.png" alt="sparkle" class="sparkle"></span>How it <span class="highlight-blue">works?</span><img src="pictures/sparkling.png" alt="sparkle" class="sparkle"></span></h2>
-                <p class="section-desc">Effortlessly capture and organize your study materials from start to finish.</p>
+                <p class="section-desc" style="margin-bottom: 32px;">Effortlessly capture and organize your study materials from start to finish.</p>
                 <div class="features-grid">
-                    <button class="feature-btn">Convert Image</button>
-                    <button class="feature-btn">Quiz maker</button>
-                    <button class="feature-btn">Summarizer & reviewer</button>
+                <a href="convert-image.php" style="text-decoration: none;"><button class="feature-btn">Convert Image</button></a>
+                <a href="quiz-maker.php" style="text-decoration: none;"><button class="feature-btn">Quiz maker</button></a>
+                <a href="summarizer-and-reviewer.php" style="text-decoration: none;"><button class="feature-btn">Summarizer & reviewer</button></a>
                 </div>
             </div>
         </section>
@@ -52,7 +53,7 @@
                 <div class="content-split">
                     <div class="text-content">
                         <h2>Quick. Convenient. Efficient.</h2>
-                        <p>Turn your photos of notes into text instantly for quick, and generate reviewers. Save time and boost productivity with just a snap!</p>
+                        <p style="margin-bottom: 32px;">Turn your photos of notes into text instantly for quick, and generate reviewers. Save time and boost productivity with just a snap!</p>
                         <button class="btn-secondary">Learn more</button>
                     </div>
                     <div class="image-content">
@@ -70,7 +71,7 @@
                     </div>
                     <div class="text-content">
                         <h2>Your Info Digest</h2>
-                        <p>After gathering all the text, it condenses the information into a clear and concise summary, helping you grasp the key points quickly</p>
+                        <p style="margin-bottom: 32px;">After gathering all the text, it condenses the information into a clear and concise summary, helping you grasp the key points quickly</p>
                         <button class="btn-secondary">Learn more</button>
                     </div>
                 </div>
@@ -87,7 +88,7 @@
                     </div>
                     <div class="text-content">
                         <h2>Backed by Reviewer</h2>
-                        <p>Transform your study sessions with a powerful tool designed to streamline your learning. By highlighting essential concepts and enhancing retention, it makes exam preparation not just effective, but also engaging and efficient.</p>
+                        <p style="margin-bottom: 32px;">Transform your study sessions with a powerful tool designed to streamline your learning. By highlighting essential concepts and enhancing retention, it makes exam preparation not just effective, but also engaging and efficient.</p>
                         <button class="btn-secondary">Learn more</button>
                     </div>
                     
@@ -100,7 +101,7 @@
                 <div class="content-split">
                     <div class="text-content">
                         <h2>Personalized Quiz Maker</h2>
-                        <p>Generate tailored questions that challenge your knowledge and reinforce learning, ensuring you’re well-prepared for any assessment.</p>
+                        <p style="margin-bottom: 32px;">Generate tailored questions that challenge your knowledge and reinforce learning, ensuring you’re well-prepared for any assessment.</p>
                         <button class="btn-secondary">Learn more</button>
                     </div>
                     <div class="image-content">

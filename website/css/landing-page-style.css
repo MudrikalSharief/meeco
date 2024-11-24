@@ -1,8 +1,9 @@
 :root {
     --primary-blue: #0052FF;
-    --light-blue: #E5EDFF;
+    --light-blue: #66B3FF;
+    --light-gray: #E5EDFF;
     --text-dark: #1A1A1A;
-    --text-gray: #666666;
+    --text-gray: #454040;
 }
 
 * {
@@ -164,11 +165,17 @@ h1 {
 .how-it-works {
     padding: 80px 0;
     text-align: center;
-    background: var(--light-blue);
+    background: var(--light-gray);
 }
 
 .sparkle {
     height: 30px;
+    color: var(--primary-blue);
+    margin: 0 8px;
+}
+.check {
+    /* padding-top:10px; */
+    height: 15px;
     color: var(--primary-blue);
     margin: 0 8px;
 }
@@ -179,13 +186,45 @@ h1 {
     color: var(--text-gray);
 }
 
-.features-grid {
+.more-features-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
     margin-top: 48px;
-    max-width: 600px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.see-more-p{
+    
+    color: var(--light-blue);
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.see-more-p:hover{
+
+    color: var(--primary-blue);
+}
+
+.more-features-p{
+    margin-top: 15px;
+    margin-left: 14px;
+    margin-right: 14px;
+    color: var(--text-gray);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.features-grid {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -215,6 +254,18 @@ h1 {
     font-size: 42px;
     font-weight: 650;
 }
+.box{
+    flex: 0 1 calc(50% - 12px);  /* Sets each button to half the row width minus half the gap */
+    width: 401px;
+    height: 407px;
+    background: white;
+    border-color: var(--primary-blue);
+    color: var(--primary-blue);
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
 .highlight-blue {
     color: #1C30DB; /* Replace with the color you want */
 }
@@ -241,7 +292,7 @@ h1 {
 
 .text-content p {
     color: var(--text-gray);
-    margin-bottom: 32px;
+    
 }
 
 .btn-secondary {
@@ -261,12 +312,30 @@ h1 {
     color: white;
 }
 
+.btn-subtitle {
+    background: transparent;
+    border: 2px solid var(--light-blue);
+    color: var(--light-blue);
+    padding: 20px 54px;
+    border-radius: 8px;
+    font-weight: 570;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+}
+
+.btn-subtitle:hover {
+    background: var(--primary-blue);
+    color: white;
+}
+
 .up-meeco{
     padding-left: 200px;
     height: 420px;
 }
 .convert-image-meeco{
     height: 420px;
+    width: 600px;
 }
 
 /* Footer */
@@ -277,6 +346,9 @@ h1 {
     position: relative;
 }
 
+.subtitle{
+    color: var(--primary-blue);
+}
 
 
 .footer-grid {
