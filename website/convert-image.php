@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convert Image</title>
-    <link rel="stylesheet" href="css/landing-page-style.css ?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/navbar-style.css ?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/footer-style.css ?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/landing-page-style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/navbar-style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/footer-style.css?v=<?php echo time(); ?>">
 </head>
 <body>
-<nav class="navbar">
+    <nav class="navbar">
         <div class="container">
             <div class="logo">
-            <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo">
-            </div></a>
+            <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo"></a>
+            </div>
             <button class="login-btn">Log In</button>
         </div>
     </nav>

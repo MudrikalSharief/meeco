@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convert Image</title>
-    <link rel="stylesheet" href="css/landing-page-style.css ?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/navbar-style.css ?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/footer-style.css ?v=<?php echo time(); ?>">
+    <title>Summarizer and Reviewer</title>
+    <link rel="stylesheet" href="css/landing-page-style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/navbar-style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/footer-style.css?v=<?php echo time(); ?>">
 </head>
 <body>
 <nav class="navbar">
@@ -58,7 +58,6 @@
                 </div>
             </div>
         </section>
-
 
         <section class="how-it-works">
             <div class="container">
