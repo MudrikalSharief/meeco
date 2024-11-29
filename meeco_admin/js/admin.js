@@ -16,6 +16,10 @@ $(document).ready(function(){
         e.preventDefault()
         viewAccounts()
     })
+    $('#contacts-link').on('click', function(e){
+        e.preventDefault()
+        viewContacts()
+    })
     $('#statistics-link').on('click', function(e){
         e.preventDefault()
         viewStatistics()
@@ -105,6 +109,8 @@ $(document).ready(function(){
         $('#users-link').trigger('click')
     }else if (url.endsWith('accounts')){
         $('#accounts-link').trigger('click')
+    }else if (url.endsWith('contacts')){
+        $('#contacts-link').trigger('click')
     }else if (url.endsWith('statistics')){
         $('#statistics-link').trigger('click')
     }else{
