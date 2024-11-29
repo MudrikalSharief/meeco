@@ -34,15 +34,16 @@
             <div class="container">
                 <div class="content-split">
                     <div class="text-content">
+                        <div class="image-content">
+                         <img src="{{asset('logo_icons/pictures/up-meeco.png')}}" alt="level-up" class="up-meeco">
+                        </div>
                         <h2>Quick. Convenient. Efficient.</h2>
                         <p style="margin-bottom: 32px;">Turn your photos of notes into text instantly for quick, and generate reviewers. Save time and boost productivity with just a snap!</p>
                         <a href="convert-image.php" style="text-decoration: none;">
                             <button class="btn-secondary">Learn more</button>
                         </a>
                     </div>
-                    <div class="image-content">
-                        <img src="{{asset('logo_icons/pictures/up-meeco.png')}}" alt="level-up" class="up-meeco">
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -87,6 +88,9 @@
         <section class="personalized-quiz-maker">
             <div class="container">
                 <div class="content-split">
+                    <div class="image-content">
+                        <img src="{{asset('logo_icons/pictures/head-scratch.png')}}" alt="Quiz Maker Mascot" class="head-scratch-png">
+                    </div>
                     <div class="text-content">
                         <h2>Personalized Quiz Maker</h2>
                         <p style="margin-bottom: 32px;">Generate tailored questions that challenge your knowledge and reinforce learning, ensuring you’re well-prepared for any assessment.</p>
@@ -94,9 +98,7 @@
                             <button class="btn-secondary">Learn more</button>
                         </a>
                     </div>
-                    <div class="image-content">
-                        <img src="{{asset('logo_icons/pictures/head-scratch.png')}}" alt="Quiz Maker Mascot" class="head-scratch-png">
-                    </div>
+                    
                 </div>
             </div>
             
