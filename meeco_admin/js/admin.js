@@ -16,6 +16,10 @@ $(document).ready(function(){
         e.preventDefault()
         viewAccounts()
     })
+    $('#statistics-link').on('click', function(e){
+        e.preventDefault()
+        viewStatistics()
+    })
 
     function viewUsers(){
         $.ajax({
@@ -39,6 +43,59 @@ $(document).ready(function(){
         })
     }
 
+    function viewStatistics(){
+        $.ajax({
+            type: 'GET',
+            url: '../statistics/statistics.php',
+            dataType: 'html',
+            success: function(response){
+                $('.content-page').html(response)
+                renderChart();
+            }
+        })
+    }
+
+    function renderChart() {
+        const xValues = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+        const ctx = document.getElementById("myChart").getContext("2d");
+    
+        // Destroy old chart instance if it exists
+        if (chartInstance) {
+            chartInstance.destroy();
+        }
+    
+        // Create new chart instance
+        chartInstance = new Chart(ctx, {
+            type: "line",
+            data: {
+                labels: xValues,
+                datasets: [
+                    {   
+                        label:"Sales",
+                        data: [800, 1300, 1350, 1060, 800, 600, 1330],
+                        borderColor: "blue",
+                        fill: true
+
+                    }, 
+                    {   
+                        
+                        label:"API Cost",
+                        data: [500, 800, 760, 600, 500, 680, 400],
+                        borderColor: "red",
+                        fill: true
+                    }, 
+                    {   
+                        label:"Profit",
+                        data: [300, 500, 590, 200, 100, 620, 150],
+                        borderColor: "green",
+                        fill: true
+                    }
+                ]
+            }
+        });
+    }
+    
+    
 
 
     let url = window.location.href;
@@ -48,6 +105,8 @@ $(document).ready(function(){
         $('#users-link').trigger('click')
     }else if (url.endsWith('accounts')){
         $('#accounts-link').trigger('click')
+    }else if (url.endsWith('statistics')){
+        $('#statistics-link').trigger('click')
     }else{
         $('#dashboard-link').trigger('click')
     }

@@ -463,6 +463,17 @@ div.dt-container div.dt-paging ul.pagination{
     justify-content: center;
 }
 
+.statistic_chart{
+    background-color: white;
+    border: 1px solid rgb(180, 180, 180);
+    width: 1000px;
+}
+
+.chart{
+    max-width:100%; 
+    
+}
+
 @media screen and (min-width: 768px) {
     .sidebar{
         display: flex;

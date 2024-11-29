@@ -25,7 +25,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="statistics" id="statistics-link" class="nav-link">
             <img class="bi" src="../img/icons/statistic.svg" alt="dashboard icon">
                 <span class="fs-6 ms-2">Statistics</span>
             </a>
