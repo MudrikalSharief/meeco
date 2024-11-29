@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convert Image</title>
-    <link rel="stylesheet" href="css/landing-page-style.css ?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/navbar-style.css ?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="css/footer-style.css ?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/landing-page-style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/navbar-style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/footer-style.css?v=<?php echo time(); ?>">
 </head>
 <body>
-<nav class="navbar">
+    <nav class="navbar">
         <div class="container">
             <div class="logo">
-            <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo">
-            </div></a>
+            <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo"></a>
+            </div>
             <button class="login-btn">Log In</button>
         </div>
     </nav>
@@ -24,9 +24,9 @@
                     <div class="text-content">
                         <h2 class="subtitle">Quick. Convenient. Efficient.</h2>
                         <p style="font-size:18px; font-weight:500; margin-bottom: 32px;">Turn your photos of notes into text instantly for quick, and generate reviewers. Save time and boost productivity with just a snap!</p>
-                        <!-- <a href="sample.php" style="text-decoration: none;"> -->
+                        <a href="../login/login.php" style="text-decoration: none;">
                             <button class="btn-subtitle">Start Your Journey</button>
-                        <!-- </a>     -->
+                        </a>    
                     </div>
                     <div class="image-content">
                         <img src="pictures/convert-image-1.png" alt="level-up" class="convert-image-meeco">
