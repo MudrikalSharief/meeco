@@ -55,6 +55,12 @@
             </a>
         </li>
         <li class="nav-item">
+            <a href="contacts" id="contacts-link" class="nav-link">
+                <img class="bi" src="../img/icons/account.svg" alt="dashboard icon">
+                <span class="fs-6 ms-2">Contacts</span>
+            </a>
+        </li>
+        <li class="nav-item">
             <a href="#" class="nav-link">
                 <img class="bi" src="../img/icons/logs.svg" alt="dashboard icon">
                 <span class="fs-6 ms-2">Logs</span>
