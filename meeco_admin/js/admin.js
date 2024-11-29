@@ -46,6 +46,16 @@ $(document).ready(function(){
             }
         })
     }
+     function viewContacts(){
+        $.ajax({
+            type: 'GET',
+            url: '../contacts/contacts.php',
+            dataType: 'html',
+            success: function(response){
+                $('.content-page').html(response)
+            }
+        })
+    }
 
     function viewStatistics(){
         $.ajax({
