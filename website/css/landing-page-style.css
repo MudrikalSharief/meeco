@@ -350,6 +350,10 @@ h1 {
 
 /* Responsive Design */
 @media (max-width: 850px) {
+    body {
+        
+
+    }
     .hero {
         padding: 80px 0;
     }
@@ -389,6 +393,8 @@ h1 {
 
     .text-content {
         margin: 0 auto;
+        margin:0 10px  0 10px
+        
     }
 
     .footer-grid {
@@ -459,6 +465,9 @@ h1 {
 
     .menu.active {
         display: flex;
+    }
+    .section-desc {
+        padding: 0 10px 0 10px;
     }
 }
 

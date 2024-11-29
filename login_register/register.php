@@ -26,7 +26,7 @@
             <h5 class="CP">Confirm Password</h5>
             <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
             <button type="submit" class="register-button">Sign Up</button>
-            <p class="login-text">Already have an Account? <a href="login.html">Log in</a>.</p>
+            <p class="login-text">Already have an Account? <a href="login.php">Log in</a>.</p>
         </form>
     </div>
 </div>

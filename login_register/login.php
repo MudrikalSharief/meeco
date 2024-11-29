@@ -22,7 +22,7 @@
             <input type="password" id="password" name="password" placeholder="Password" required>
                 <a href="#" class="forgot-password">Forgot Password?</a>
                 <button type="submit" class="login-button">Log In</button>
-                <p class="signup-text">Don't have an Account yet? <a href="#">Sign up</a>.</p>
+                <p class="signup-text">Don't have an Account yet? <a href="register.php">Sign up</a>.</p>
             </form>
         </div>
     </div>

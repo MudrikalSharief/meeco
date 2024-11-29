@@ -14,7 +14,9 @@
             <div class="logo">
             <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo"></a>
             </div>
+            <a href="../login_register/login.php">
             <button class="login-btn">Log In</button>
+            </a>
         </div>
     </nav>
     <main>
@@ -24,7 +26,7 @@
                     <div class="text-content">
                         <h2 class="subtitle">Quick. Convenient. Efficient.</h2>
                         <p style="font-size:18px; font-weight:500; margin-bottom: 32px;">Turn your photos of notes into text instantly for quick, and generate reviewers. Save time and boost productivity with just a snap!</p>
-                        <a href="../login/login.php" style="text-decoration: none;">
+                        <a href="../login_register/register.php" style="text-decoration: none;">
                             <button class="btn-subtitle">Start Your Journey</button>
                         </a>    
                     </div>

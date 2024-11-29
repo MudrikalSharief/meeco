@@ -14,7 +14,9 @@
             <div class="logo">
             <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo"></a>
             </div>
+            <a href="../login_register/login.php">
             <button class="login-btn">Log In</button>
+            </a>
         </div>
     </nav>
 
@@ -29,7 +31,7 @@
                         <h1>Elevate your study game, effortlessly</h1>
                         <div class="cta-buttons">
                             <button class="btn-primary">Get Started</button>
-                            <a href="#" class="account-link">I ALREADY HAVE AN ACCOUNT</a>
+                            <a href="../login_register/login.php" class="account-link">I ALREADY HAVE AN ACCOUNT</a>
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,9 @@
             <div class="logo">
             <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo"></a>
             </div>
+            <a href="../login_register/login.php">
             <button class="login-btn">Log In</button>
+            </a>
         </div>
     </nav>
     <main>
@@ -24,7 +26,7 @@
                     <div class="text-content">
                         <h2 class="subtitle">Your Info Digest & Reviewer</h2>
                         <p style="font-size:18px; font-weight:500; margin-bottom: 32px;">After gathering all the text, it condenses the information into a clear summary, helping you grasp key points quickly. By highlighting essential concepts, it streamlines your study sessions and enhances retention, making exam preparation efficient and engaging.</p>
-                        <a href="../login/login.php" style="text-decoration: none;">
+                        <a href="../login_register/register.php" style="text-decoration: none;">
                             <button class="btn-subtitle">Start Your Journey</button>
                         </a>    
                     </div>

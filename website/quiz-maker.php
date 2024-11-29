@@ -14,7 +14,9 @@
             <div class="logo">
             <a href="landing_page.php" style="text-decoration: none;"><img src="pictures/meeco-logo-text.png" alt="Meeco Logo"></a>
             </div>
+            <a href="../login_register/login.php">
             <button class="login-btn">Log In</button>
+            </a>
         </div>
     </nav>
     <main>
@@ -25,7 +27,7 @@
                         <h2 class="subtitle">Personalized Quiz Maker</h2>
                         <p style="font-size:18px; font-weight:500; margin-bottom: 32px;">Generate tailored questions that challenge your knowledge and reinforce learning, ensuring you’re well-prepared for any assessment.
                         </p>
-                        <a href="../login/login.php" style="text-decoration: none;">
+                        <a href="../login_register/register.php" style="text-decoration: none;">
                             <button class="btn-subtitle">Start Your Journey</button>
                         </a>    
                     </div>
