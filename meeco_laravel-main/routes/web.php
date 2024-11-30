@@ -20,6 +20,9 @@ Route::middleware('guest')->group(function (){
 });
 
 Route::middleware('auth')->group(function (){
+
+    Route::view('/', 'posts.index')->name('loggedin');
+
     Route::post('/logout', [AUTHcontroller::class, 'logout_user'])->name('logout');
 
     Route::view('/capture', 'posts.capture')->name('capture');
