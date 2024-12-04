@@ -7,10 +7,18 @@ $(document).ready(function(){
         let url = $(this).attr('href')
         window.history.pushState({path: url}, '', url)
     })
+    $('#dashboard-link').on('click', function(e){
+        e.preventDefault()
+        viewDashboard()
+    })
 
     $('#users-link').on('click', function(e){
         e.preventDefault()
         viewUsers()
+    })
+    $('#support-tickets-link').on('click', function(e){
+        e.preventDefault()
+        viewSupportTickets()
     })
     $('#accounts-link').on('click', function(e){
         e.preventDefault()
@@ -24,7 +32,21 @@ $(document).ready(function(){
         e.preventDefault()
         viewStatistics()
     })
-
+    $('#subscriptions-link').on('click', function(e){
+        e.preventDefault()
+        viewSubscriptions()
+    })
+    function viewDashboard(){
+        $.ajax({
+            type: 'GET',
+            url: '../dashboard/dashboard.php',
+            dataType: 'html',
+            success: function(response){
+                $('.content-page').html(response)
+                renderChart();
+            }
+        })
+    }
     function viewUsers(){
         $.ajax({
             type: 'GET',
@@ -35,7 +57,16 @@ $(document).ready(function(){
             }
         })
     }
-
+    function viewSupportTickets(){
+        $.ajax({
+            type: 'GET',
+            url: '../support-tickets/support-tickets.php',
+            dataType: 'html',
+            success: function(response){
+                $('.content-page').html(response)
+            }
+        })
+    }
     function viewAccounts(){
         $.ajax({
             type: 'GET',
@@ -46,7 +77,7 @@ $(document).ready(function(){
             }
         })
     }
-     function viewContacts(){
+    function viewContacts(){
         $.ajax({
             type: 'GET',
             url: '../contacts/contacts.php',
@@ -56,11 +87,21 @@ $(document).ready(function(){
             }
         })
     }
-
     function viewStatistics(){
         $.ajax({
             type: 'GET',
             url: '../statistics/statistics.php',
+            dataType: 'html',
+            success: function(response){
+                $('.content-page').html(response)
+                renderChart();
+            }
+        })
+    }
+    function viewSubscriptions(){
+        $.ajax({
+            type: 'GET',
+            url: '../subscriptions/subscriptions.php',
             dataType: 'html',
             success: function(response){
                 $('.content-page').html(response)
@@ -117,12 +158,16 @@ $(document).ready(function(){
         $('#dashboard-link').trigger('click')
     }else if (url.endsWith('users')){
         $('#users-link').trigger('click')
+    }else if (url.endsWith('support-tickets')){
+        $('#support-tickets-link').trigger('click')
     }else if (url.endsWith('accounts')){
         $('#accounts-link').trigger('click')
     }else if (url.endsWith('contacts')){
         $('#contacts-link').trigger('click')
     }else if (url.endsWith('statistics')){
         $('#statistics-link').trigger('click')
+    }else if (url.endsWith('subscriptions')){
+        $('#subscriptions-link').trigger('click')
     }else{
         $('#dashboard-link').trigger('click')
     }
